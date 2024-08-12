@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7C9AC0B72C677CFC009305B5 /* My_NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0B62C677CFC009305B5 /* My_NotesApp.swift */; };
-		7C9AC0B92C677CFC009305B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0B82C677CFC009305B5 /* ContentView.swift */; };
+		7C9AC0B92C677CFC009305B5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0B82C677CFC009305B5 /* Home.swift */; };
 		7C9AC0BB2C677CFE009305B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9AC0BA2C677CFE009305B5 /* Assets.xcassets */; };
 		7C9AC0BF2C677CFE009305B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9AC0BE2C677CFE009305B5 /* Preview Assets.xcassets */; };
 		7C9AC0C92C677CFE009305B5 /* My_NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0C82C677CFE009305B5 /* My_NotesTests.swift */; };
 		7C9AC0D32C677CFE009305B5 /* My_NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0D22C677CFE009305B5 /* My_NotesUITests.swift */; };
 		7C9AC0D52C677CFE009305B5 /* My_NotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0D42C677CFE009305B5 /* My_NotesUITestsLaunchTests.swift */; };
+		7C9AC0E32C68A199009305B5 /* CreateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0E22C68A199009305B5 /* CreateNoteView.swift */; };
+		7C9AC0E52C694A7A009305B5 /* UpdateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AC0E42C694A7A009305B5 /* UpdateNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		7C9AC0B32C677CFC009305B5 /* My Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9AC0B62C677CFC009305B5 /* My_NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_NotesApp.swift; sourceTree = "<group>"; };
-		7C9AC0B82C677CFC009305B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C9AC0B82C677CFC009305B5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7C9AC0BA2C677CFE009305B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C9AC0BC2C677CFE009305B5 /* My_Notes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = My_Notes.entitlements; sourceTree = "<group>"; };
 		7C9AC0BE2C677CFE009305B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +47,9 @@
 		7C9AC0CE2C677CFE009305B5 /* My NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My NotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9AC0D22C677CFE009305B5 /* My_NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_NotesUITests.swift; sourceTree = "<group>"; };
 		7C9AC0D42C677CFE009305B5 /* My_NotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_NotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C9AC0E12C68981B009305B5 /* My-Notes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-Notes-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7C9AC0E22C68A199009305B5 /* CreateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteView.swift; sourceTree = "<group>"; };
+		7C9AC0E42C694A7A009305B5 /* UpdateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +100,14 @@
 		7C9AC0B52C677CFC009305B5 /* My Notes */ = {
 			isa = PBXGroup;
 			children = (
+				7C9AC0E12C68981B009305B5 /* My-Notes-Info.plist */,
 				7C9AC0B62C677CFC009305B5 /* My_NotesApp.swift */,
-				7C9AC0B82C677CFC009305B5 /* ContentView.swift */,
+				7C9AC0B82C677CFC009305B5 /* Home.swift */,
 				7C9AC0BA2C677CFE009305B5 /* Assets.xcassets */,
 				7C9AC0BC2C677CFE009305B5 /* My_Notes.entitlements */,
 				7C9AC0BD2C677CFE009305B5 /* Preview Content */,
+				7C9AC0E22C68A199009305B5 /* CreateNoteView.swift */,
+				7C9AC0E42C694A7A009305B5 /* UpdateNoteView.swift */,
 			);
 			path = "My Notes";
 			sourceTree = "<group>";
@@ -259,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C9AC0B92C677CFC009305B5 /* ContentView.swift in Sources */,
+				7C9AC0B92C677CFC009305B5 /* Home.swift in Sources */,
 				7C9AC0B72C677CFC009305B5 /* My_NotesApp.swift in Sources */,
+				7C9AC0E32C68A199009305B5 /* CreateNoteView.swift in Sources */,
+				7C9AC0E52C694A7A009305B5 /* UpdateNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +429,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Notes-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +468,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Notes-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
